@@ -1,6 +1,13 @@
 package com.company;
 import java.text.NumberFormat;
 
+/**
+ * Inherits from the Customer class.
+ * Calculates the cost by the amount of square footage.
+ * Applies the discount if senior is set to true.
+ * Formats and displays the information inputted.
+ */
+
 public class Residential extends Customer {
 
     public Residential(String customerName, String customerPhone, String customerAddress, double squareFootage) {

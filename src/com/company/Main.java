@@ -2,6 +2,11 @@ package com.company;
 
 import java.util.Scanner;
 
+/**
+ * Asks the user to input their customer information depending
+ * on which option customer type they chose.
+ * Displays the information.
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -38,8 +43,10 @@ public class Main {
         }
     }
 
-    // Asks the user for their customer and commercial information
-    // Creates an instance of the commercial class
+    /**
+     * Asks the user for their customer and commercial information
+     * Creates an instance of the Commercial class
+     */
     static void Commercial(){
         String name;
         String phoneNumber;
@@ -78,8 +85,10 @@ public class Main {
         commercial.CommercialRate(squareFootage);
     }
 
-    // Asks the user for customer and Residential Information
-    // Creates an instance of the residential class
+    /**
+     * Asks the user for customer and Residential information
+     * Creates an instance of the Residential class
+     */
     static void Residential(){
         String name;
         String phoneNumber;

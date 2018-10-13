@@ -2,9 +2,14 @@ package com.company;
 
 import java.text.NumberFormat;
 
+/**
+ * Inherits from the Customer class.
+ * Calculates the cost by the amount of square footage.
+ * Applies the discount if multiField is set to true.
+ * Formats and displays the information inputted.
+ */
+
 public class Commercial extends Customer {
-
-
 
     private String commercialName;
     private boolean multiField = false;

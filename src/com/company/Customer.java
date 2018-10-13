@@ -1,5 +1,8 @@
 package com.company;
 
+/**
+ * Holds data needed for the inherited class.
+ */
 public class Customer {
 
     private String customerName;
